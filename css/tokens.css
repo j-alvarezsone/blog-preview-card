@@ -1,0 +1,28 @@
+:root {
+  --color-yellow: #F4D04E;
+  --color-gray-950: #111111;
+  --color-gray-500: #6B6B6B;
+  --color-white: #FFFFFF;
+
+  /* Typography Presets */
+  --font-family-base: 'Outfit', sans-serif;
+  --text-present-1-font-size: 1.5rem;
+  --text-preset-1-font-weight: 800;
+  --text-preset-1-line-height: 1.5;
+  --text-preset-1-letter-spacing: 0rem;
+  --text-preset-2-font-size: 0.938rem;
+  --text-preset-2-font-weight: 500;
+  --text-preset-2-line-height: 1.5;
+  --text-preset-2-letter-spacing: 0rem;
+  --text-preset-3-font-size: 0.875rem;
+  --text-preset-3-font-weight: 500;
+  --text-preset-3-line-height: 1.5;
+  --text-preset-3-letter-spacing: 0rem;
+  --text-preset-3-font-weight-extra-bold: 800;
+
+   /* Spacing */
+  --spacing-50: 0.25rem;
+  --spacing-100: 0.5rem;
+  --spacing-150: 0.75rem;
+  --spacing-300: 1.5rem;
+}
