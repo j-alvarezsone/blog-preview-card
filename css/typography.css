@@ -1,6 +1,6 @@
 .text-preset-1 {
   font-family: var(--font-family-base);
-  font-size: var(--text-preset-1-font-size);
+  font-size: var(--text-preset-1-font-size-mobile);
   font-weight: var(--text-preset-1-font-weight);
   line-height: var(--text-preset-1-line-height);
   letter-spacing: var(--text-preset-1-letter-spacing);
@@ -8,7 +8,7 @@
 
 .text-preset-2 {
   font-family: var(--font-family-base);
-  font-size: var(--text-preset-2-font-size);
+  font-size: var(--text-preset-2-font-size-mobile);
   font-weight: var(--text-preset-2-font-weight);
   line-height: var(--text-preset-2-line-height);
   letter-spacing: var(--text-preset-2-letter-spacing);
@@ -16,7 +16,7 @@
 
 .text-preset-3 {
   font-family: var(--font-family-base);
-  font-size: var(--text-preset-3-font-size);
+  font-size: var(--text-preset-3-font-size-mobile);
   font-weight: var(--text-preset-3-font-weight);
   line-height: var(--text-preset-3-line-height);
   letter-spacing: var(--text-preset-3-letter-spacing);
@@ -24,8 +24,26 @@
 
 .text-preset-3-bold {
   font-family: var(--font-family-base);
-  font-size: var(--text-preset-3-font-size);
+  font-size: var(--text-preset-3-font-size-mobile);
   font-weight: var(--text-preset-3-font-weight-extra-bold);
   line-height: var(--text-preset-3-line-height);
   letter-spacing: var(--text-preset-3-letter-spacing);
+}
+
+@media (min-width: 768px) {
+  .text-preset-1 {
+    font-size: var(--text-preset-1-font-size);
+  }
+
+  .text-preset-2 {
+    font-size: var(--text-preset-2-font-size);
+  }
+
+  .text-preset-3 {
+    font-size: var(--text-preset-3-font-size);
+  }
+
+  .text-preset-3-bold {
+    font-size: var(--text-preset-3-font-size);
+  }
 }

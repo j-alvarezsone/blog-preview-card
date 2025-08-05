@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="/css/reset.css">
-  <link rel="stylesheet" href="/css/tokens.css">
-  <link rel="stylesheet" href="/css/typography.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/tokens.css" />
+    <link rel="stylesheet" href="/css/typography.css" />
+    <link rel="stylesheet" href="/css/blog-preview-card.css" />
 
+    <title>Frontend Mentor | Blog preview card</title>
 
-  <title>Frontend Mentor | Blog preview card</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: var(--color-yellow);
+      }
+    </style>
+  </head>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Learning
-
-  Published 21 Dec 2023
-
-  HTML & CSS foundations
-
-  These languages are the backbone of every website, defining structure, content, and presentation.
-
-  Greg Hooper
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+  <body>
+    <main class="container">
+      <article class="blog-preview-card">
+        <img src="./assets/images/illustration-article.svg" alt="Equilibrium" class="blog-preview-card__image" />
+        <div class="blog-preview-card__content">
+          <span class="blog-preview-card__tag text-preset-3-bold"> Learning </span>
+          <p class="blog-preview-card__date text-preset-3">
+            Published
+            <time datetime="2023-12-21">21 Dec 2023</time>
+          </p>
+          <h2 class="blog-preview-card__title text-preset-1">HTML & CSS foundations</h2>
+          <p class="blog-preview-card__description text-preset-2">
+            These languages are the backbone of every website, defining structure, content, and presentation.
+          </p>
+        </div>
+        <div class="blog-preview-card__author">
+          <img
+            src="./assets/images/image-avatar.webp"
+            alt="Avatar of author"
+            class="blog-preview-card__avatar-image"
+            width="32"
+            height="32"
+          />
+          <span class="blog-preview-card__author text-preset-3-bold">Greg Hooper</span>
+        </div>
+      </article>
+    </main>
+  </body>
 </html>
