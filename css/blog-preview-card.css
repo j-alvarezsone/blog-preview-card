@@ -47,6 +47,10 @@
   color: var(--color-gray-950);
 }
 
+.blog-preview-card:hover .blog-preview-card__title {
+  color: var(--color-yellow);
+}
+
 .blog-preview-card__description {
   color: var(--color-gray-500);
 }
